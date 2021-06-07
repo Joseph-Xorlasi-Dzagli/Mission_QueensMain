@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+li{
+    list-style: none;
+}
+
+.line2{
+    width: 250px;
+    height: 5px;
+    background-color: #dd2199;
+    position: relative;
+    left: 40%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#colab-showcase{
+    height: 400px;
+    position: relative;
+    background: url('../images/colab2.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    color: #fff;
+}
+
+#colab-showcase .colab-showcase-content{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colab-data{
+    margin-top: 70px;
+}
+
+#colab-data #colab-icons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#colab-data #colab-icons a{
+    color: #dd2199;
+    margin-right: 10px;
+}
+
+#colab-data #colab-icons a i{
+    transition: all ease-in-out 0.5s;
+}
+
+#colab-data #colab-icons a i:hover{
+    transform: scale(1.1);
+}
+
+.colab-text{
+    margin-bottom: 100px;
+}
+
+.colab-text h1,p{
+    text-align: center;
+}
+
+#resources h1{
+    text-align: center;
+}
+
+#resources .line{
+    position: relative;
+    left: 47%;
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
+.resources-content img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+#resource-text li{
+    margin-bottom: 10px;
+    color: #ca1086;
+}
+
+.resources-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1140px){
+    .resources-content{
+        flex-direction: column;
+    }
+
+    .resources-content img{
+        width: 450px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .line2{ 
+        left: 30%;   
+    }
+}
+
+
+@media screen and (max-width: 760px){
+    .colab-text p{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #navbar .nav-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 680px){
+    #colab-showcase .colab-showcase-content h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .line2{ 
+        left: 25%;   
+    }
+}
+
+@media screen and (max-width: 530px){
+    .line2{ 
+        left: 20%;   
+    }
+}
+
+@media screen and (max-width: 465px){
+    .line2{ 
+        left: 15%;   
+    }
+
+    .resources-content{
+        flex-direction: column;
+    }
+
+    .resources-content img{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .line2{ 
+        left: 15%;   
+    }
+
+    .resources-content{
+        flex-direction: column;
+    }
+
+    .resources-content img{
+        width: 350px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .line2{ 
+        left: 10%;   
+    }
+}
+
+@media screen and (max-width: 370px){
+    
+    .resources-content{
+        flex-direction: column;
+    }
+
+    .resources-content img{
+        width: 300px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 345px){
+    .line2{ 
+        left: 5%;   
+    }
+}
+
+@media screen and (max-width: 320px){
+    .line2{ 
+        left: 0%;   
+    }
+
+    .resources-content img{
+        width: 250px;
+        margin-bottom: 50px;
+    }
+}
