@@ -1,0 +1,8032 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+:root {
+  --swiper-theme-color: #dd2199;
+}
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Slab', serif;
+  overflow-x: hidden;
+}
+
+.container2 {
+  max-width: 80vw;
+  margin: auto;
+}
+
+span {
+  color: red;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utilities */
+.container {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.btn {
+  color: #fff;
+  background-color: #dd2199;
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: all ease-in-out 0.5s;
+}
+
+.btn:hover {
+  background-color: #e06bb6;
+}
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay3 {
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(24, 8, 22, 0.5);
+}
+
+/* History page */
+#history_page {
+  height: 60vh;
+  width: 100vw;
+  background: url('../images/african.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#history_page .about-content {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#history_page .about-content h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#history_page .about-content p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.box5 {
+  background-image: url('../images/profile1.jpg');
+}
+
+.box6 {
+  background-image: url('../images/profile2.jpg');
+}
+
+.box7 {
+  background-image: url('../images/profile3.jpg');
+}
+
+.box8 {
+  background-image: url('../images/profile4.jpg');
+}
+
+/*Header*/
+#header-contact {
+  background-color: #dd2199;
+  color: #fff;
+  padding: 30px 0px;
+}
+
+.small-header {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#head-contact {
+  display: flex;
+}
+
+#head-contact ul {
+  display: flex;
+  align-items: center;
+}
+
+#head-contact ul li {
+  margin-right: 20px;
+}
+
+#head-contact ul li ion-icon {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+#head-contact ul li a {
+  color: #fff;
+  font-size: 12px;
+}
+
+#media-handles a {
+  color: #fff;
+}
+
+#media-handles ul {
+  display: flex;
+}
+
+#media-handles ul li a i {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* Nvabar */
+#navbar {
+  padding: 15px 0px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  width: 100vw;
+  z-index: 2;
+}
+
+#navbar .nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar .nav-content #logo {
+  display: flex;
+  align-items: center;
+}
+
+#navbar .nav-content #logo {
+  cursor: pointer;
+}
+
+#navbar .nav-content ul img {
+  width: 60px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#navbar .nav-content ul p {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#navbar #nav-links {
+  display: flex;
+  align-items: center;
+}
+
+#navbar #nav-links li a {
+  display: inline-block;
+  color: black;
+  margin-right: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+#navbar #nav-links li a:hover {
+  color: #e06bb6;
+}
+
+/* About */
+#about {
+  height: 60vh;
+  width: 100vw;
+  background: url('../images/wo2.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#about .about-content {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#about .about-content h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#about .about-content p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Showcase */
+#showcase {
+  background-color: #f4f4f4;
+  padding: 70px 0px;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#showcase-text {
+  width: 600px;
+}
+
+#showcase .showcase-content img {
+  width: 430px;
+  border-radius: 5px;
+  transition: all ease-in-out 0.5s;
+}
+
+#showcase .showcase-content img:hover {
+  opacity: 0.8;
+}
+
+#showcase-text h3 {
+  font-size: 24px;
+}
+
+#showcase-text p {
+  font-size: 14px;
+  line-height: 23px;
+  color: #555;
+}
+
+#paragraphs {
+  padding: 20px 0px;
+}
+
+/* Team */
+#team {
+  padding: 70px 0px;
+}
+
+#team .team-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#team .team-content #team-header h4 {
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+#team .team-content #team-header #line {
+  width: 40px;
+  background-color: #dd2199;
+  height: 5px;
+  position: relative;
+  left: 48%;
+  margin-bottom: 20px;
+}
+
+#team .team-content #team-header #team-p {
+  padding-bottom: 50px;
+}
+
+#team .team-content #team-header p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555;
+}
+
+#team .team-content #sub-content {
+  display: flex;
+}
+
+#team .team-content #sub-content #team-left {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-right: 40px;
+}
+
+#team .team-content #sub-content #team-left .box {
+  width: 200px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+#team .team-content #sub-content #team-left .box .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  visibility: hidden;
+}
+
+.box1 {
+  background-image: url('../images/i6.jpg');
+}
+
+.box2 {
+  background-image: url('../images/i2.jpg');
+}
+
+.box3 {
+  background-image: url('../images/i3.jpg');
+}
+
+.box4 {
+  background-image: url('../images/i4.jpg_fit=scale');
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.box:hover .overlay {
+  visibility: visible;
+}
+
+#team .team-content #sub-content #team-left .box .overlay h4 {
+  font-size: 16px;
+}
+
+#team .team-content #sub-content #team-left .box .overlay p {
+  padding-bottom: 15px;
+  padding-top: 2px;
+  font-size: 12px;
+}
+
+#text-right .large {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+#text-right .large-p {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#text-right #text-p {
+  color: #555;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+#text-right #text-p p {
+  line-height: 25px;
+}
+
+#text-right ul li {
+  line-height: 30px;
+  color: #555;
+  font-size: 14px;
+}
+
+#text-right ul li ion-icon {
+  color: #dd2199;
+  font-size: 20px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide #img1 {
+  width: 200px;
+}
+
+.swiper-slide #img2 {
+  width: 100px;
+}
+
+.swiper-slide #img3 {
+  width: 100px;
+}
+
+#sponsors h4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#contact {
+  background-color: #111;
+  color: #fff;
+  padding: 70px 0px;
+}
+
+#contact .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact .footer-content #footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .footer-content #footer-left ul {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+#contact .footer-content #footer-left ul img {
+  width: 60px;
+}
+
+#contact .footer-content #footer-left ul h1 {
+  font-size: 20px;
+}
+
+#contact .footer-content #footer-left ul p {
+  font-size: 10px;
+}
+
+#footer-p {
+  color: #999;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+#footer-p p {
+  line-height: 22px;
+}
+
+#social li {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+#social li a {
+  color: #dd2199;
+}
+
+#footer-right h4 {
+  padding-bottom: 20px;
+}
+
+#footer-right ul li {
+  padding-bottom: 15px;
+  color: #999;
+}
+
+#footer-right ul li ion-icon {
+  color: #dd2199;
+}
+
+footer {
+  background-color: #111;
+  border-top: rgb(49, 47, 47) 1px solid;
+  padding: 30px 0px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content p {
+  font-size: 14px;
+}
+
+/* contact page */
+#contact-modal {
+  padding: 100px 0px;
+}
+
+.contact-content {
+  background-color: #f4f4f4;
+  padding: 70px 60px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-content #contact-text {
+  margin-right: 30px;
+  width: 900px;
+}
+
+.contact-content #contact-text .lead {
+  padding-bottom: 15px;
+}
+
+.contact-content #contact-text .sub-lead {
+  padding-bottom: 20px;
+}
+
+.contact-content #contact-text ul li {
+  color: #212529;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+
+.contact-content #contact-text ul li ion-icon {
+  color: #555;
+  font-size: 18px;
+}
+
+.contact-content #contact-text h2 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.contact-content #contact-text p {
+  font-size: 14px;
+  color: #555;
+  line-height: 22px;
+}
+
+#contact-page {
+  height: 90vh;
+  width: 100vw;
+  background: url('../images/about3.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#contact-page .about-content {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact-page .about-content h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#contact-page .about-content p {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Home Page */
+.swiper-slide .img {
+  width: 100vw;
+  height: 72vh;
+}
+
+.swiper-slide .img1 {
+  background: url(../images/people.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.swiper-slide .img2 {
+  background-image: url(../images/violence.png);
+  background-position: center center;
+  background-size: cover;
+}
+
+.swiper-slide .img2 .overlay2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide .img3 .overlay2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide .img2 .overlay-content {
+  height: 72vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .img2 .overlay2 #warning {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide .img2 .overlay2 #warning h1 {
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.swiper-slide .img2 .overlay2 #warning ion-icon {
+  color: red;
+  font-size: 50px;
+}
+
+.swiper-slide .img3 .overlay-content {
+  height: 72vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide .img3 .overlay-content .stand {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.swiper-slide .img3 .overlay-content .stand h1 {
+  font-size: 40px;
+  color: #dd2199;
+  padding-right: 10px;
+}
+
+.swiper-slide .img3 .overlay-content p {
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.swiper-slide .img3 .overlay-content .stand ion-icon {
+  color: #dd2199;
+  font-size: 30px;
+}
+
+.swiper-slide .img3 {
+  background-image: url(../images/i4.jpg_fit=scale);
+  background-position: center center;
+  background-size: cover;
+}
+
+.home-content {
+  justify-content: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-content h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.home-content p {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.home-content a {
+  display: inline-block;
+  color: #fff;
+  background-color: #dd2199;
+  padding: 10px 12px;
+  font-size: 14px;
+  transition: all ease-in-out 0.5s;
+}
+
+.home-content a:hover {
+  background-color: #e06bb6;
+}
+
+/* Mission */
+#his-mission {
+  padding: 40px 0px;
+}
+
+#his-mission .his-mission-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+#his-mission .his-mission-content #leader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#his-mission .his-mission-content #leader #mission-img {
+  background: url(../images/i3.jpg);
+  width: 120px;
+  height: 120px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#his-mission .his-mission-content #leader h2 {
+  font-size: 18px;
+}
+
+#his-mission .his-mission-content #leader #title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  padding-bottom: 15px;
+}
+
+#his-mission .his-mission-content #leader .message p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  color: #212529;
+}
+
+#his-mission #history {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#his-mission #history #history-img {
+  background: url(../images/history.jpg);
+  width: 120px;
+  height: 120px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#his-mission #history h2 {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#his-mission #history .message p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 22px;
+  color: #212529;
+}
+
+#his-mission .his-mission-content #mission {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#his-mission .his-mission-content #mission h2 {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+#his-mission .his-mission-content #mission .message p {
+  text-align: center;
+  color: #212529;
+  font-size: 14px;
+}
+
+#his-mission .his-mission-content #mission #mission-img {
+  background: url(../images/mission.jpg);
+  width: 120px;
+  height: 120px;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#mission {
+  box-shadow: 0 0 10px -2px;
+  padding: 15px;
+  transition: ease-in-out all 0.5s;
+}
+
+#mission:hover {
+  transform: translateY(-25px);
+}
+
+#history {
+  box-shadow: 0 0 10px -2px;
+  padding: 15px;
+  transition: all ease-in-out 0.5s;
+}
+
+#history:hover {
+  transform: translateY(-25px);
+}
+
+#leader {
+  padding: 15px;
+  border: 5px dotted rgb(24, 24, 24);
+}
+
+#main {
+  padding: 60px 0px 60px 0px;
+}
+
+#main .main-content h1 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#main .main-content #main-line {
+  width: 70px;
+  height: 5px;
+  background-color: #dd2199;
+  display: inline-block;
+  position: relative;
+  left: 47%;
+  margin-bottom: 50px;
+}
+
+#main .main-content #main-sub #main-img {
+  background: url(../images/start.jpg);
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#main .main-content #main-sub #main-text {
+  width: 400px;
+}
+
+#main .main-content #main-sub #main-text h2 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+#main .main-content #main-sub #main-text p {
+  font-size: 14px;
+  color: #212529;
+  line-height: 22px;
+  padding-bottom: 20px;
+}
+
+#main .main-content #main-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*People*/
+#people {
+  background-color: #f4f4f4;
+  padding: 70px 0px;
+}
+
+#people .people-content h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#people-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#people-container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 50px;
+  padding: 30px 20px;
+}
+
+#people-container .card .card-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+#people-container .card .card-text .quotation {
+  position: relative;
+  left: 45%;
+  padding: 20px 0px;
+}
+
+#people-container .card .card-text p {
+  text-align: center;
+  font-size: 14px;
+  color: #212529;
+  width: 400px;
+  line-height: 22px;
+}
+
+.btn2 {
+  color: #fff;
+  background-color: #dd2199;
+  display: inline-block;
+  margin: 20px 0px 20px 15px;
+  padding: 10px 12px;
+  transition: all ease-in-out 0.5s;
+}
+
+.a-card-content ul .btn2:hover {
+  background-color: #e06bb6;
+}
+
+.tag {
+  height: 20px;
+  width: 60px;
+  clip-path: polygon(64% 0, 100% 50%, 64% 100%, 0 100%, 0 0);
+  background-color: #dd2199;
+  margin: 20px 0px 0px 0px;
+}
+
+/* Counter */
+#counter {
+  padding: 40px 0px 60px 0px;
+}
+
+#counter .counter-content h3 {
+  color: red;
+}
+
+.counter {
+  background-color: #fff;
+  color: #dd2199;
+  padding: 40px 20px;
+  border-top: 3px solid #dd2199;
+}
+
+#counter .counter-content {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+#counter .counter {
+  font-size: 45px;
+  margin: 10px 0px;
+}
+
+/* mission page */
+#mission-showcase {
+  background: url(../images/mission2.jpg);
+  background-position: center center;
+  height: 70vh;
+  background-size: cover;
+}
+
+.mission-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.mission-content h1 {
+  padding-bottom: 30px;
+  color: #dd2199;
+  text-align: center;
+}
+
+.mission-content p {
+  font-size: 14px;
+  text-align: center;
+}
+
+#mission-body {
+  padding: 70px 0px;
+}
+
+#mission-body .body-content #mission-main {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#mission-body .body-content #mission-line {
+  width: 60px;
+  height: 5px;
+  background-color: #dd2199;
+  position: relative;
+  left: 48%;
+  margin-bottom: 90px;
+}
+
+#mission-body .body-content #mission-sub-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#mission-body .body-content #mission-sub-content #side-img img {
+  width: 530px;
+  border-radius: 5px;
+}
+
+#mission-body .body-content #mission-sub-content #mission-text h1 {
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#mission-body .body-content #mission-sub-content #mission-text h3 {
+  text-align: center;
+}
+
+#mission-body .body-content #mission-sub-content #mission-text #mission-p {
+  width: 530px;
+  color: #555;
+  line-height: 22px;
+  font-size: 14px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#mission-body .body-content #mission-sub-content ul li {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#mission-body .body-content #mission-sub-content h3 {
+  padding-bottom: 20px;
+}
+
+#mission-body .body-content #mission-sub-content ul li ion-icon {
+  color: #dd2199;
+  font-size: 20px;
+}
+
+/*Accomplishemnt*/
+#accomplishment {
+  padding: 70px 0px;
+  background-color: #f4f4f4;
+}
+
+#accomplishment .accomplishment-content h3 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#accomplishment .accomplishment-content #achievement-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card {
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  padding-bottom: 20px;
+  background-color: #fff;
+  color: #555555;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card #a-card-im1 {
+  height: 50vh;
+  background-image: url(../images/violence2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card #a-card-im2 {
+  height: 50vh;
+  background-image: url(../images/aids2.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card #a-card-im3 {
+  height: 50vh;
+  background-image: url(../images/patriachy.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card #a-card-im4 {
+  height: 50vh;
+  background-image: url(../images/rape.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card #a-card-im5 {
+  height: 50vh;
+  background-image: url(../images/un-day.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card #a-card-im6 {
+  height: 50vh;
+  background-image: url(../images/stem3.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+#accomplishment .accomplishment-content #achievement-cards .a-card ul li a {
+  padding: 10px 15px;
+  color: #dd2199;
+  font-size: 20px;
+}
+#accomplishment .accomplishment-content #achievement-cards .a-card ul li a i {
+  transition: 0.5s ease-in-out all;
+}
+#accomplishment
+  .accomplishment-content
+  #achievement-cards
+  .a-card
+  ul
+  li
+  a
+  i:hover {
+  transform: rotate(270deg);
+}
+#accomplishment .accomplishment-content #achievement-cards .a-card-content p {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 20px 15px;
+}
+
+/*Stem Page*/
+#stem-page {
+  background-image: url(../images/stem5.jpg);
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  height: 70vh;
+}
+
+#stem-page .stem-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  color: #fff;
+}
+
+#stem-page .stem-page-content h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#stem-page .stem-page-content p {
+  padding-top: 10px;
+}
+
+#stem-line {
+  width: 60px;
+  height: 5px;
+  background-color: #dd2199;
+}
+
+#stem-showcase {
+  padding: 80px 0px;
+}
+
+#stem-showcase .stem-showcase-content h1 {
+  text-align: center;
+}
+
+#stem-showcase .stem-showcase-content #stem-line {
+  position: relative;
+  left: 47%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+#container4 {
+  max-width: 60vw;
+  margin: auto;
+}
+/*
+#stem-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+*/
+#stem-main-text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+#stem-sub-text {
+  text-align: center;
+  line-height: 25px;
+}
+
+#stem-sub-content #stem-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+#stem-sub-content {
+  padding: 100px 0px;
+}
+
+#stem-sub-content #stem-contents #content1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#stem-sub-content #stem-contents #content2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+#stem-sub-content #stem-contents #content2 h3 {
+  padding-bottom: 40px;
+}
+
+#stem-sub-content #stem-contents #content2 p {
+  line-height: 28px;
+}
+
+#stem-sub-content #stem-contents #content2 #stem-img2 {
+  background-image: url(../images/women-in-stem.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 380px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#stem-sub-content #stem-contents #content1 #stem-img1 {
+  background-image: url(../images/wo-engineer.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 500px;
+  height: 380px;
+  border-radius: 5px;
+}
+
+#stem-sub-content #stem-contents #content2 #stem-content2 {
+  width: 500px;
+}
+
+#stem-sub-content #stem-contents #content1 #stem-content1 {
+  width: 500px;
+}
+
+#stem-sub-content #stem-contents #content1 #stem-content1 h3 {
+  padding-bottom: 30px;
+}
+
+#stem-sub-content #stem-contents #content1 #stem-content1 p {
+  line-height: 28px;
+}
+
+#stem-showcase .stem-showcase-content ul {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+#stem-showcase .stem-showcase-content ul li {
+  padding-right: 20px;
+}
+
+#stem-showcase .stem-showcase-content ul li a {
+  color: #dd2199;
+}
+
+#stem-showcase .stem-showcase-content ul li a i {
+  font-size: 20px;
+  transition: ease-in-out 0.5s all;
+}
+
+#stem-showcase .stem-showcase-content ul li a i:hover {
+  transform: scale(1.1);
+}
+
+/* violence page */
+#violence-page {
+  background-image: url(../images/violence.png);
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  height: 70vh;
+}
+
+#violence-page .violence-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  color: #fff;
+}
+
+#violence-page .violence-page-content h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#violence-page .violence-page-content p {
+  padding-top: 10px;
+}
+
+#violence-showcase {
+  padding: 80px 0px;
+}
+
+#violence-line {
+  width: 60px;
+  height: 5px;
+  background-color: #dd2199;
+}
+
+#violence-showcase .violence-showcase-content h1 {
+  text-align: center;
+}
+
+#violence-showcase .violence-showcase-content #violence-line {
+  position: relative;
+  left: 47%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+#violence-main-text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+#violence-sub-text {
+  text-align: center;
+  line-height: 25px;
+}
+
+#violence-sub-content #violence-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+#violence-sub-content {
+  padding: 100px 0px;
+}
+
+#violence-sub-content #violence-contents #content1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#violence-sub-content #violence-contents #content2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+
+#violence-sub-content #violence-contents #content2 h3 {
+  padding-bottom: 40px;
+}
+
+#violence-sub-content #violence-contents #content2 p {
+  line-height: 28px;
+}
+
+#violence-sub-content #violence-contents #content2 #stem-img2 {
+  background-image: url(../images/vio2.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#violence-sub-content #violence-contents #content1 #violence-img1 {
+  background-image: url(../images/vio1.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 500px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.sub-p {
+  padding-top: 20px;
+}
+
+#violence-sub-content #violence-contents #content2 #violence-content2 {
+  width: 500px;
+}
+
+#violence-sub-content #violence-contents #content1 #violence-content1 {
+  width: 500px;
+}
+
+#violence-sub-content #violence-contents #content1 #violence-content1 h3 {
+  padding-bottom: 30px;
+}
+
+#violence-sub-content #violence-contents #content1 #violence-content1 p {
+  line-height: 28px;
+}
+
+#violence-showcase .violence-showcase-content ul {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+#violence-showcase .violence-showcase-content ul li {
+  padding-right: 20px;
+}
+
+#violence-showcase .violence-showcase-content ul li a {
+  color: #dd2199;
+}
+
+#violence-showcase .violence-showcase-content ul li a i {
+  font-size: 20px;
+  transition: ease-in-out 0.5s all;
+}
+
+#violence-showcase .violence-showcase-content ul li a i:hover {
+  transform: scale(1.1);
+}
+
+/* Aids-Day-Page */
+#aids-day-page {
+  background-image: url(../images/aids4.jpg);
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  height: 70vh;
+}
+
+#aids-day-page .aids-day-page-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70vh;
+  color: #fff;
+}
+
+#aids-day-page .aids-day-page-content h1 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#aids-day-page .aids-day-page-content p {
+  padding-top: 10px;
+}
+
+#aids-day-showcase {
+  padding: 80px 0px;
+}
+
+#aids-day-line {
+  width: 60px;
+  height: 5px;
+  background-color: #dd2199;
+}
+
+#aids-day-showcase .aids-day-showcase-content h1 {
+  text-align: center;
+}
+
+#aids-day-showcase .aids-day-showcase-content #aids-day-line {
+  position: relative;
+  left: 47%;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+#aids-day-main-text {
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+#aids-day-sub-text {
+  text-align: center;
+  line-height: 25px;
+}
+
+#aids-day-sub-content #aids-day-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+#aids-day-sub-content {
+  padding: 100px 0px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 ul li {
+  padding-bottom: 10px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+  display: inline-block;
+  color: #dd2199;
+  padding-right: 10px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 ul li p {
+  display: inline-block;
+}
+
+/**/
+#aids-day-sub-content #aids-day-contents #content2 ul {
+  display: flex;
+  flex-direction: column;
+}
+
+#aids-day-sub-content #aids-day-contents #content2 ul li {
+  padding-bottom: 10px;
+}
+
+#aids-day-sub-content #aids-day-contents #content2 ul li ion-icon {
+  display: inline-block;
+  color: #dd2199;
+  padding-right: 10px;
+}
+
+#aids-day-sub-content #aids-day-contents #content2 ul li p {
+  display: inline-block;
+}
+
+#aids-day-sub-content #aids-day-contents #content2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  /*display: none;*/
+}
+
+#aids-day-sub-content #aids-day-contents #content2 h3 {
+  padding-bottom: 40px;
+}
+
+#aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+  background-image: url(../images/aids.png);
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+  background-image: url(../images/aids2.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 500px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.sub-p {
+  padding-top: 20px;
+}
+
+#aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+  width: 500px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+  width: 500px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+  padding-bottom: 30px;
+}
+
+#aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 p {
+  line-height: 28px;
+}
+
+#aids-day-showcase .aids-day-showcase-content ul {
+  display: flex;
+  padding-bottom: 40px;
+}
+
+#aids-day-showcase .aids-day-showcase-content ul li {
+  padding-right: 20px;
+}
+
+#aids-day-showcase .aids-day-showcase-content ul li a {
+  color: #dd2199;
+}
+
+#aids-day-showcase .aids-day-showcase-content ul li a i {
+  font-size: 20px;
+  transition: ease-in-out 0.5s all;
+}
+
+#aids-day-showcase .aids-day-showcase-content ul li a i:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 750px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 590px;
+    height: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 350px;
+    width: 590px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 550px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 550px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 590px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 350px;
+    width: 590px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 550px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 550px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    margin-bottom: 30px;
+    width: 580px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #accomplishment .accomplishment-content #achievement-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 40px;
+  }
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 600px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 600px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-content #contact-text {
+    width: 500px;
+    height: 300px;
+  }
+  #media-handles {
+    display: none;
+  }
+  #navbar .nav-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #text {
+    display: none;
+  }
+  #showcase .showcase-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  #showcase .showcase-content img {
+    width: 520px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  #team .team-content #sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #team .team-content #sub-content #team-left {
+    display: block;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  #contact .footer-content {
+    display: block;
+  }
+  #footer-right {
+    padding-top: 30px;
+  }
+  #his-mission .his-mission-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  #main .main-content #main-sub {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 650px) {
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media screen and (min-width: 661px) and (max-width: 680px) {
+  #team .team-content #sub-content #team-left .box {
+    height: 300px;
+    width: 530px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media screen and (min-width: 751px) and (max-width: 850px) {
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    margin-bottom: 30px;
+    width: 580px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #accomplishment .accomplishment-content #achievement-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 600px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 600px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 300px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+    display: inline-block;
+    margin-right: 40px;
+  }
+  #team .team-content #sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #team-left {
+    height: 65vh;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  #team .team-content #sub-content #team-left {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 40px;
+  }
+
+  #team .team-content #sub-content #team-left .box {
+    width: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 1200px) {
+  #accomplishment .accomplishment-content #achievement-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 700px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 700px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 950px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 730px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 730px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 960px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 750px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 961px) and (max-width: 980px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 780px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1000px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 800px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1050px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 830px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1051px) and (max-width: 1100px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 850px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1101px) and (max-width: 1150px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 880px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1151px) and (max-width: 1200px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 900px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 750px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 374px) {
+  #head-contact ul {
+    display: block;
+  }
+  #showcase .showcase-content img {
+    width: 250px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 430px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 340px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 340px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 310px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 310px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 340px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 340px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 310px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 310px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 280px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 320px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 330px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 300px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 320px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 320px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #showcase .showcase-content img {
+    width: 320px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 330px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 275px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 320px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 320px;
+    padding-top: 20px;
+  }
+  #people-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    width: 340px;
+  }
+  #people-container .card .card-text p {
+    text-align: center;
+    font-size: 14px;
+    color: #212529;
+    width: 200px;
+    line-height: 22px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 450px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 370px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 370px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 370px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 370px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 350px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 350px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 280px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 240px;
+    width: 360px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 300px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 350px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 350px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 350px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 350px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 295px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 350px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 350px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 470px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 370px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 370px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 370px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 370px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 350px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 350px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 280px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 240px;
+    width: 360px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 19px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 380px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 300px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 360px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 360px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 380px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 380px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 320px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 370px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 370px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 471px) and (max-width: 490px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 390px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 390px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 370px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 370px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 390px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 390px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 370px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 370px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 320px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 240px;
+    width: 410px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 390px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 300px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 380px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 380px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 370px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 370px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 491px) and (max-width: 499px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 410px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 410px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 390px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 390px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 410px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 410px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 390px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 390px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 320px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 15px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 240px;
+    width: 410px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 390px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 390px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 390px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 390px;
+    border-radius: 5px;
+  }
+
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 390px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 520px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 410px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 410px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 390px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 390px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 410px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 410px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 390px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 390px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 380px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 420px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 415px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 400px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 400px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 420px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 400px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 360px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 400px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 521px) and (max-width: 540px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 430px;
+    height: 230px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 430px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 410px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 410px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 430px;
+    height: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 230px;
+    width: 430px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 410px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 410px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 380px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 420px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 425px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 420px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 420px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 450px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 360px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 420px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 420px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 420px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 541px) and (max-width: 560px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 460px;
+    height: 300px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 460px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 460px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 460px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 450px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 450px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 380px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 450px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 440px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 440px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 480px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 440px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 380px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 420px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 420px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 561px) and (max-width: 580px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 460px;
+    height: 300px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 460px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 460px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 460px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 450px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 450px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 380px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 270px;
+    width: 470px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 470px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 450px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 450px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #showcase .showcase-content img {
+    width: 500px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 460px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 400px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 450px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 420px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 590px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 490px;
+    height: 300px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 490px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 480px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 480px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 490px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 490px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 480px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 480px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 490px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 480px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 460px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-content #contact-text {
+    width: 420px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  .mapouter {
+    display: none;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+
+    height: 400px;
+    width: 460px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 460px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 591px) and (max-width: 610px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 490px;
+    height: 300px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 490px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 480px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 480px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 490px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 300px;
+    width: 490px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 480px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 480px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 490px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 490px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 490px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  .mapouter {
+    display: none;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+
+    height: 400px;
+    width: 480px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 480px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 611px) and (max-width: 630px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 520px;
+    height: 320px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 320px;
+    width: 520px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 500px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 500px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 520px;
+    height: 320px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 320px;
+    width: 520px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 500px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 500px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 510px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 500px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 500px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-content #contact-text {
+    width: 450px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  .mapouter {
+    display: none;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+
+    height: 400px;
+    width: 490px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 490px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 631px) and (max-width: 650px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 520px;
+    height: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 350px;
+    width: 520px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 520px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 520px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 520px;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 350px;
+    width: 520px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 520px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 520px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 510px;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 400px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 510px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 510px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-content #contact-text {
+    width: 450px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  .mapouter {
+    display: none;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 500px;
+    padding-top: 20px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 651px) and (max-width: 700px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 550px;
+    height: 350px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 520px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 520px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 550px;
+    height: 370px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 370px;
+    width: 550px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 520px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 520px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 530px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 530px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 520px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 520px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 720px) {
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 570px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 570px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content ul li {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 560px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 560px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 721px) and (max-width: 740px) {
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 580px;
+    border-radius: 5px;
+  }
+  #main .main-content #main-sub #main-text {
+    width: 580px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 741px) and (max-width: 749px) {
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 580px;
+    border-radius: 5px;
+  }
+  #main .main-content #main-sub #main-text {
+    width: 580px;
+    padding-top: 20px;
+  }
+}
+@media screen and (min-width: 751px) and (max-width: 800px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 630px;
+    height: 370px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 370px;
+    width: 630px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 600px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 600px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 630px;
+    height: 370px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 370px;
+    width: 630px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 600px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 600px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+}
+@media screen and (min-width: 801px) and (max-width: 850px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 680px;
+    height: 400px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 400px;
+    width: 680px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 670px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 670px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 680px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 400px;
+    width: 680px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 670px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 670px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  .contact-content {
+    width: 630px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 851px) and (max-width: 880px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 700px;
+    height: 400px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 400px;
+    width: 700px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 690px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 690px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 700px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 400px;
+    width: 700px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 690px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 690px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    margin-bottom: 30px;
+    width: 690px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+  .contact-content {
+    width: 630px;
+  }
+}
+@media screen and (min-width: 881px) and (max-width: 900px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 740px;
+    height: 400px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 400px;
+    width: 740px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 700px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 700px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 740px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 740px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 700px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 700px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    margin-bottom: 30px;
+    width: 720px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .contact-content {
+    width: 630px;
+  }
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 930px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 740px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 740px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 700px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 700px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 740px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 740px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 700px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 700px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 931px) and (max-width: 960px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 780px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 780px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 730px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 730px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 780px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 780px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 730px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 730px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 961px) and (max-width: 980px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 810px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 810px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 780px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 780px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 810px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 810px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 780px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 790px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 981px) and (max-width: 1000px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 850px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 850px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 850px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 850px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1050px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 850px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 850px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 850px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 850px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1051px) and (max-width: 1080px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 890px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 890px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 890px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 890px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1140px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 890px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 890px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 820px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 890px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 890px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 820px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1041px) and (max-width: 1160px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 940px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 940px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 900px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 900px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 940px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 940px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 900px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 900px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1161px) and (max-width: 1200px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 980px;
+    height: 450px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 980px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 900px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 900px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 980px;
+    height: 450px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 450px;
+    width: 980px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 900px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 900px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 400px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 881px) and (max-width: 1249px) {
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .contact-content {
+    width: 630px;
+  }
+  .contact-content #contact-text {
+    width: 430px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 60px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 550px;
+  }
+}
+@media screen and (max-width: 280px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 230px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 230px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 220px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 230px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 230px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 220px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 220px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 200px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 9.5px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+  }
+
+  #aids-day-showcase .aids-day-showcase-content ul {
+    display: flex;
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 220px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 250px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 11px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 230px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 230px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text ul li {
+    font-size: 13px;
+  }
+  #showcase .showcase-content img {
+    width: 230px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 210px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  #text-right ul li {
+    font-size: 14px;
+  }
+  .contact-content {
+    display: block;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 200px;
+    height: 400px;
+  }
+  #his-mission .his-mission-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 220px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 240px;
+    padding-top: 20px;
+  }
+  #people-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    width: 250px;
+  }
+  #people-container .card .card-text p {
+    text-align: center;
+    font-size: 14px;
+    color: #212529;
+    width: 200px;
+    line-height: 22px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 339px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 250px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 220px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 220px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 220px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 220px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 250px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 9.5px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 240px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 250px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 11px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 240px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 240px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  #text-right ul li {
+    font-size: 14px;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  .contact-content #contact-text {
+    width: 200px;
+    height: 400px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 250px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 240px;
+    padding-top: 20px;
+  }
+  #people-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    width: 280px;
+  }
+  #people-container .card .card-text p {
+    text-align: center;
+    font-size: 14px;
+    color: #212529;
+    width: 200px;
+    line-height: 22px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 340px) and (max-width: 374px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 280px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 280px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 280px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 280px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 280px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 280px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 280px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 250px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 280px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 280px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 280px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 280px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 280px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 280px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  #contact .footer-content {
+    display: block;
+  }
+  #footer-right {
+    padding-top: 30px;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  .contact-content #contact-text {
+    width: 235px;
+    height: 400px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 280px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 280px;
+    padding-top: 20px;
+  }
+  #people-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    width: 280px;
+  }
+  #people-container .card .card-text p {
+    text-align: center;
+    font-size: 14px;
+    color: #212529;
+    width: 200px;
+    line-height: 22px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 399px) {
+  #stem-main-text {
+    font-size: 14px;
+  }
+
+  #stem-sub-content #stem-contents #content1 {
+    flex-direction: column;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-content2 {
+    width: 250px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-img1 {
+    width: 300px;
+    height: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 {
+    width: 200px;
+  }
+
+  #stem-sub-content #stem-contents #content1 #stem-content1 p {
+    width: 280px;
+  }
+
+  #stem-sub-content #stem-contents #content2 p {
+    width: 280px;
+  }
+
+  #stem-sub-content #stem-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 {
+    flex-direction: column-reverse;
+  }
+
+  #violence-sub-content #violence-contents #content2 #violence-content2 {
+    width: 250px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 {
+    width: 290px;
+  }
+
+  #violence-sub-content #violence-contents #content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-img1 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 #stem-img2 {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  #violence-sub-content #violence-contents #content2 p {
+    width: 280px;
+  }
+
+  #violence-sub-content #violence-contents #content1 #violence-content1 p {
+    width: 280px;
+  }
+
+  #violence-sub-content #violence-contents #content2 h3 {
+    padding-bottom: 40px;
+    width: 220px;
+  }
+
+  #violence-page .violence-page-content h1 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  #violence-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 {
+    flex-direction: column;
+    padding-top: 70px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-content2 {
+    width: 290px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 h3 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 ul li p {
+    display: inline-block;
+    font-size: 10px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content2 #aids-day-img2 {
+    background-image: url(../images/aids.png);
+    background-position: center center;
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  #container4 {
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  #aids-day-main-text {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-img1 {
+    background-image: url(../images/aids2.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 310px;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li ion-icon {
+    display: inline-block;
+    color: #dd2199;
+    padding-right: 0px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 h3 {
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 #aids-day-content1 {
+    width: 300px;
+  }
+
+  #aids-day-sub-content #aids-day-contents #content1 ul li p {
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  #aids-day-showcase {
+    padding: 80px 0px 0px 0px;
+  }
+
+  #aids-day-sub-content {
+    padding: 100px 0px 0px 0px;
+  }
+
+  #mission-body .body-content #mission-sub-content {
+    display: flex;
+    flex-direction: column;
+  }
+  #mission-body .body-content #mission-sub-content #side-img img {
+    width: 300px;
+    border-radius: 5px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text h3 {
+    text-align: center;
+  }
+  #mission-body .body-content #mission-sub-content #mission-text #mission-p {
+    width: 300px;
+    color: #555;
+    line-height: 22px;
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+  #team .team-content #sub-content #team-left .box {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 20px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out;
+  }
+  #showcase .showcase-content img {
+    width: 300px;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+  }
+  .mapouter {
+    display: none;
+  }
+  .contact-content #contact-text {
+    width: 250px;
+    height: 400px;
+  }
+  .contact-content {
+    padding: 70px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  #main .main-content #main-sub #main-img {
+    background: url(../images/start.jpg);
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  #main .main-content #main-sub #main-text {
+    width: 300px;
+    padding-top: 20px;
+  }
+  #people-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 50px;
+    padding: 30px 20px;
+    width: 310px;
+  }
+  #people-container .card .card-text p {
+    text-align: center;
+    font-size: 14px;
+    color: #212529;
+    width: 200px;
+    line-height: 22px;
+  }
+  #counter .counter-content {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
