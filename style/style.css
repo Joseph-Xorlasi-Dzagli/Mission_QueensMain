@@ -268,12 +268,12 @@ ul {
 }
 
 #about .about-content h2 {
-  font-size: 20px;
+  font-size: 40px;
   padding-bottom: 15px;
 }
 
 #about .about-content p {
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -538,7 +538,6 @@ ul {
   margin-bottom: 50px;
 }
 
-
 #stories .container{
   max-width: 900px;
   margin: auto;
@@ -742,12 +741,12 @@ footer {
 }
 
 #contact-page .about-content h2 {
-  font-size: 20px;
+  font-size: 40px;
   padding-bottom: 15px;
 }
 
 #contact-page .about-content p {
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 
