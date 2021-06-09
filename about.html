@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Girls | Up</title>
 </head>
 <body>
@@ -56,8 +57,8 @@
     <section id="about">
        <div id="overlay">
             <div class="container about-content">
-                <h2>About Us</h2>
-                <p>
+                <h2 data-aos="fade-down">About Us</h2>
+                <p data-aos="fade-right">
                     Mission Queens Girl Up Club work through four main streams: education, fundraising, service and advocay.
                 </p>
             </div>
@@ -65,10 +66,10 @@
     </section>
     <section id="showcase">
         <div class="container showcase-content">
-            <div>
+            <div data-aos="zoom-in">
                 <img src="./images/wo1.jpg" alt="">
             </div>
-            <div id="showcase-text">
+            <div id="showcase-text" data-aos="zoom-in-down">
                 <h3>Young leaders start here</h3>
                 <h3>Discover who we are</h3>
                 <div id="paragraphs">
@@ -84,34 +85,34 @@
     <section id="team">
         <div class="container team-content">
             <div id="team-header">
-                <h4>Meet Our Team</h4>
-                <div id="line"></div>
-                <div id="team-p">
+                <h4 data-aos="fade-right">Meet Our Team</h4>
+                <div id="line" data-aos="fade-left"></div>
+                <div id="team-p" data-aos="zoom-in">
                     <p>Our team may be small, but our reach is big. The Girl Up staff is innovative,</p>
                     <p>experienced, and passionate. We are deeply committed to working</p>
                 </div>
             </div>
             <div id="sub-content">
                 <div id="team-left">
-                    <div class="box box1">
+                    <div class="box box1" data-aos="flip-up">
                         <div class="overlay">
                             <h4>Yaa Abena</h4>
                             <p>Leader</p>
                         </div>
                     </div>
-                    <div class="box box2">
+                    <div class="box box2" data-aos="flip-up">
                         <div class="overlay">
                             <h4>Ama Ataa</h4>
                             <p>Co-lead</p>
                         </div>
                     </div>
-                    <div class="box box3">
+                    <div class="box box3" data-aos="flip-up">
                         <div class="overlay">
                             <h4>Dana Asante</h4>
                             <p>Organizer</p>
                         </div>
                     </div>
-                    <div class="box box4">
+                    <div class="box box4" data-aos="flip-up">
                         <div class="overlay">
                             <h4>Adwoa Maame</h4>
                             <p>Advisor</p>
@@ -119,20 +120,20 @@
                     </div>
                 </div>
                 <div id="text-right">
-                    <h4 class="large">Become a Volunteer?</h4>
-                    <p class="large-p">Join your hand with us for a better life and beautiful future.</p>
-                    <div id="text-p">
+                    <h4 class="large" data-aos="fade-up-right">Become a Volunteer?</h4>
+                    <p class="large-p" data-aos="zoom-in-up">Join your hand with us for a better life and beautiful future.</p>
+                    <div id="text-p" data-aos="flip-right">
                         <p>We focus on building leadership within individual girls first, including self-</p>
                         <p>confidence, personal accountability and long-term aspirations.</p>
                     </div>
-                    <p class="small-header">Issues We Care About</p>
+                    <p class="small-header" data-aos="zoom-in-down">Issues We Care About</p>
                     <ul>
-                        <li><ion-icon name="checkmark-outline"></ion-icon> Gender Equality</li>
-                        <li><ion-icon name="checkmark-outline"></ion-icon> Female Violence</li>
-                        <li><ion-icon name="checkmark-outline"></ion-icon> Higher Feamle Education</li>
-                        <li><ion-icon name="checkmark-outline"></ion-icon> STEM for Social Good</li>
-                        <li><ion-icon name="checkmark-outline"></ion-icon> Mental Health</li>
-                        <li><ion-icon name="checkmark-outline"></ion-icon> And More...</li>
+                        <li data-aos="zoom-in-right"><ion-icon name="checkmark-outline"></ion-icon> Gender Equality</li>
+                        <li data-aos="zoom-in-right"><ion-icon name="checkmark-outline"></ion-icon> Female Violence</li>
+                        <li data-aos="zoom-in-right"><ion-icon name="checkmark-outline"></ion-icon> Higher Feamle Education</li>
+                        <li data-aos="zoom-in-right"><ion-icon name="checkmark-outline"></ion-icon> STEM for Social Good</li>
+                        <li data-aos="zoom-in-right"><ion-icon name="checkmark-outline"></ion-icon> Mental Health</li>
+                        <li data-aos="zoom-in-right"><ion-icon name="checkmark-outline"></ion-icon> And More...</li>
                     </ul>
                 </div>
             </div>
@@ -217,5 +218,9 @@
         prevEl: '.swiper-button-prev',
       },
     });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 </html>
