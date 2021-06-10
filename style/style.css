@@ -12,9 +12,9 @@
 }
 
 html,body {
-  font-family: 'Roboto Slab', serif;
+  /* font-family: 'Roboto Slab', serif; */
   overflow-x: hidden;
-}
+  font-family: 'Work Sans', sans-serif;}
 
 .container2 {
   max-width: 80vw;
