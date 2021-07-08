@@ -205,6 +205,57 @@ ul {
   z-index: 2;
 }
 
+#patrons{
+  margin-bottom: 80px;
+}
+
+#patrons h1{
+  font-size: 22px;
+  text-align: center;
+}
+
+.patron-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patron-btn a{
+  background-color: #dd2199;
+  color: #fff;
+  padding: 10px 15px;
+  transition: all ease-in-out 0.5s;
+}
+
+.patron-btn a:hover{
+  background-color: #be4a94;
+  padding: 12px 16px;
+}
+
+#patrons .line{
+  position: relative;
+  left: 46%;
+  margin-bottom: 30px;
+}
+
+#patrons p{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#patrons .patron-images{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#patrons .patron-images img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 #navbar .nav-content {
   display: flex;
   justify-content: space-between;
@@ -216,8 +267,16 @@ ul {
   align-items: center;
 }
 
+#navbar .nav-content #logo img{
+  width: 100px;
+}
+
 #navbar .nav-content #logo {
   cursor: pointer;
+}
+
+.main-img{
+  width: 150px;
 }
 
 #navbar .nav-content ul img {

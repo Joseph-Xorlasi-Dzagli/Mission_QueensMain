@@ -1,0 +1,259 @@
+#article-showcase{
+    height: 400px;
+    position: relative;
+    background: url('../images/article1.jpg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#article-showcase .article-showcase-content{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#links{
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+li{
+    list-style:none;
+    margin-right: 10px;
+}
+
+li i{
+    font-size: 20px;
+    color: #dd2199;
+    transition: all ease-in-out 0.5s;
+}
+
+li i:hover{
+    font-size: 22px;
+}
+
+.read-main-header{
+    text-align: center;
+}
+
+.read-header .line{
+    position: relative;
+    left: 47%;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin-bottom: 80px;
+}
+
+.read .content p{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.statistics{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.statistics h1{
+    text-align: center;
+}
+
+.statistics .line{
+    width: 175px;
+    position: relative;
+    left: 40%;
+    margin-bottom: 60px;
+}
+
+.statistics ul li{
+    list-style:circle;
+}
+
+.statistics ul li{
+    margin-bottom: 10px;
+}
+
+.p2{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 970px){
+    .read-header .line{
+        left: 46%;
+    }
+}
+
+@media screen and (max-width: 875px){
+    .read-header .line{
+        left: 45%;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    .container{
+        max-width: 95vw;
+    }
+
+    .statistics{
+        width: 700px;
+    }
+
+    .read .content p{
+        width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .container{
+        max-width: 95vw;
+    }
+
+    .statistics{
+        width: 600px;
+    }
+
+    .read .content p{
+        width: 600px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    .statistics{
+        width: 500px;
+    }
+
+    .read .content p{
+        width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .read-header .line{
+        left: 44%;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .read-header .line{
+        left: 43%;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .statistics{
+        width: 400px;
+    }
+
+    .read .content p{
+        width: 400px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .statistics .line{
+        position: relative;
+        left: 30%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .read-header .line{
+        left: 42%;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .statistics{
+        width: 300px;
+    }
+
+    .read .content p{
+        width: 300px;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .statistics .line{
+        position: relative;
+        left: 25%;
+        margin-bottom: 50px;
+    }
+
+    .read-header .line{
+        left: 41%;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .read-header .line{
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .statistics .line{
+        position: relative;
+        left: 18%;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .statistics{
+        width: 250px;
+    }
+
+    .read .content p{
+        width: 270px;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .statistics ul li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .read-header .line{
+        left: 38%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .statistics{
+        width: 200px;
+    }
+
+    .read .content p{
+        width: 230px;
+        margin: auto;
+        text-align: justify;
+    }
+}
