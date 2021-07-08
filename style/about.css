@@ -1,0 +1,42 @@
+@media screen and (max-width: 1180px){
+    #patrons .container{
+        max-width: 95vw;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 970px){
+    #patrons .patron-images {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #patrons .patron-images div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #patrons .patron-images div p{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    #patrons .patron-images {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #patrons .patron-images div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #patrons .patron-images div img{
+        width: 100%;
+    }
+}

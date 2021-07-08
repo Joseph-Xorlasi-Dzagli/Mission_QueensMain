@@ -245,9 +245,8 @@ ul {
 }
 
 #patrons .patron-images{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
 }
 
 #patrons .patron-images img{
