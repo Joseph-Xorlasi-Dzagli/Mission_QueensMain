@@ -81,6 +81,20 @@
     background-color: #be4a94;
 }
 
+@media screen and (max-width: 1200px){
+    .read-articles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .read-article1{
+        width: 500px;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 600px){
     .container{
         max-width: 95vw;
