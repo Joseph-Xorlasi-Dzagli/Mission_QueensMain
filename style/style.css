@@ -98,7 +98,7 @@ ul {
 #history_page {
   height: 60vh;
   width: 100vw;
-  background: url('../images/african.jpg');
+  background: url('../images/history2.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -125,19 +125,19 @@ ul {
 }
 
 .box5 {
-  background-image: url('../images/profile1.jpg');
+  background-image: url('../images/jacinta.jpg');
 }
 
 .box6 {
-  background-image: url('../images/profile2.jpg');
+  background-image: url('../images/sandra.jpg');
 }
 
 .box7 {
-  background-image: url('../images/profile3.jpg');
+  background-image: url('../images/exec1.jpg');
 }
 
 .box8 {
-  background-image: url('../images/profile4.jpg');
+  background-image: url('../images/exec2.jpg');
 }
 
 /*Header*/
@@ -309,7 +309,7 @@ ul {
 #about {
   height: 60vh;
   width: 100vw;
-  background: url('../images/wo2.jpg');
+  background: url('../images/history2.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -489,19 +489,19 @@ ul {
 }
 
 .box1 {
-  background-image: url('../images/i6.jpg');
+  background-image: url('../images/ind1.jpg');
 }
 
 .box2 {
-  background-image: url('../images/i2.jpg');
+  background-image: url('../images/ind2.jpg');
 }
 
 .box3 {
-  background-image: url('../images/i3.jpg');
+  background-image: url('../images/ind3.jpg');
 }
 
 .box4 {
-  background-image: url('../images/i4.jpg_fit=scale');
+  background-image: url('../images/ind4.jpg');
 }
 
 .box:hover {
@@ -782,7 +782,7 @@ footer {
 #contact-page {
   height: 90vh;
   width: 100vw;
-  background: url('../images/about3.jpg');
+  background: url('../images/contact.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -815,7 +815,7 @@ footer {
 }
 
 .swiper-slide .img1 {
-  background: url(../images/people.jpg);
+  background: url(../images/home.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -899,7 +899,7 @@ footer {
 }
 
 .swiper-slide .img3 {
-  background-image: url(../images/i4.jpg_fit=scale);
+  background-image: url(../images/equal.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -954,7 +954,7 @@ footer {
 }
 
 #his-mission .his-mission-content #leader #mission-img {
-  background: url(../images/i3.jpg);
+  background: url(../images/jacinta.jpg);
   width: 120px;
   height: 120px;
   background-position: center center;
@@ -1082,7 +1082,9 @@ footer {
 }
 
 #main .main-content #main-sub #main-img {
-  background: url(../images/start.jpg);
+  background: url(../images/idea.jpg);
+  background-position: center center;
+  background-size: cover;
   height: 400px;
   width: 500px;
   border-radius: 5px;
@@ -1140,6 +1142,7 @@ footer {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 #people-container .card .card-text .quotation {
@@ -2716,7 +2719,6 @@ footer {
     min-height: 600px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 320px;
     border-radius: 5px;
@@ -2982,7 +2984,6 @@ footer {
     min-height: 600px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 350px;
     border-radius: 5px;
@@ -3232,7 +3233,6 @@ footer {
     min-height: 600px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 370px;
     border-radius: 5px;
@@ -3457,7 +3457,6 @@ footer {
     justify-content: center;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 370px;
     border-radius: 5px;
@@ -3937,7 +3936,6 @@ footer {
     min-height: 550px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 400px;
     border-radius: 5px;
@@ -4437,7 +4435,6 @@ footer {
     min-height: 550px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 420px;
     border-radius: 5px;
@@ -4687,7 +4684,6 @@ footer {
     min-height: 550px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 450px;
     border-radius: 5px;
@@ -4893,8 +4889,6 @@ footer {
     display: none;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
-
     height: 400px;
     width: 460px;
     border-radius: 5px;
@@ -5100,8 +5094,6 @@ footer {
     display: none;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
-
     height: 400px;
     width: 480px;
     border-radius: 5px;
@@ -5307,8 +5299,6 @@ footer {
     display: none;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
-
     height: 400px;
     width: 490px;
     border-radius: 5px;
@@ -5514,8 +5504,6 @@ footer {
     display: none;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
-
     height: 400px;
     width: 500px;
     border-radius: 5px;
@@ -5708,7 +5696,6 @@ footer {
     justify-content: center;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 560px;
     border-radius: 5px;
@@ -7391,7 +7378,6 @@ footer {
     grid-gap: 30px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 220px;
     border-radius: 5px;
@@ -7649,7 +7635,6 @@ footer {
     height: 400px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 250px;
     border-radius: 5px;
@@ -7911,7 +7896,6 @@ footer {
     height: 400px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 280px;
     border-radius: 5px;
@@ -8172,7 +8156,6 @@ footer {
     min-height: 600px;
   }
   #main .main-content #main-sub #main-img {
-    background: url(../images/start.jpg);
     height: 400px;
     width: 300px;
     border-radius: 5px;
