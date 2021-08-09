@@ -399,6 +399,36 @@ ul {
   padding: 20px 0px;
 }
 
+/*Partnership*/
+#partnership{
+  margin-top: 20px;
+}
+
+#partnership h4{
+  margin-bottom: 30px;
+}
+
+#partnership ul li{
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+#partnership ul li ion-icon{
+  font-size: 20px;
+  color: #dd2199;
+  margin-right: 10px;
+}
+
+#give{
+  text-align: center;
+}
+
+#partnership p{
+  text-align: center;
+  width: 600px;
+  margin: auto;
+}
+
 /* Team */
 #team {
   padding: 70px 0px;
@@ -8375,4 +8405,30 @@ footer {
     margin-bottom: 40px;
   }
 
+}
+
+@media screen and (max-width: 690px) {
+  #partnership p{
+    width: 500px;
+  }
+  
+}
+
+@media screen and (max-width: 580px) {
+  #partnership p{
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #partnership p{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #partnership p{
+    width: 200px;
+    text-align: justify;
+  }
 }
