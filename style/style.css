@@ -316,6 +316,31 @@ ul {
   position: relative;
 }
 
+.video-content{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-content h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-content ul li {
+  margin-bottom: 20px;
+}
+
+.video-content ul li ion-icon{
+  color: #dd2199;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#video{
+  margin-bottom: 70px;
+}
+
 #about .about-content {
   color: #fff;
   height: 100%;

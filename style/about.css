@@ -27,6 +27,14 @@
     }
 }
 
+
+@media screen and (max-width: 845px){
+    .video-content{
+        flex-direction: column;
+    }
+}
+
+
 @media screen and (max-width: 630px){
     #patrons .patron-images {
         display: grid;
@@ -42,5 +50,23 @@
 
     #patrons .patron-images div img{
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    video{
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    video{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    video{
+        width: 250px;
     }
 }
