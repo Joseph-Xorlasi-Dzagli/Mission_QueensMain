@@ -890,9 +890,10 @@ footer {
 }
 
 .swiper-slide .img2 {
-  background-image: url(../images/violence3.jpg);
+  background-image: url(../images/violence4.jpg);
   background-position: center center;
   background-size: cover;
+  object-fit: cover;
 }
 
 .swiper-slide .img2 .overlay2 {
