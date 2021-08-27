@@ -2167,7 +2167,7 @@ footer {
 }
 @media screen and (min-width: 600px) and (max-width: 650px) {
 	#team .team-content #sub-content #team-left .box {
-		height: 200px;
+		height: 300px;
 		width: 500px;
 		margin-bottom: 20px;
 		position: relative;
