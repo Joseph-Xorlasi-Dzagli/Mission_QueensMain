@@ -1,0 +1,17 @@
+#article-showcase {
+	height: 400px;
+	position: relative;
+	background: url('../images/Internalized-Misogyny.jpg');
+	background-repeat: no-repeat;
+	width: 100vw;
+	background-size: cover;
+	color: #fff;
+	margin-bottom: 60px;
+}
+
+#article-showcase .article-showcase-content {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
