@@ -543,11 +543,11 @@ ul {
 }
 
 .box1 {
-	background-image: url('../images/ind1.jpg');
+	background-image: url('../images/ind7.jpg');
 }
 
 .box2 {
-	background-image: url('../images/ind2.jpg');
+	background-image: url('../images/doreen.jpg');
 }
 
 .box3 {
@@ -8394,8 +8394,48 @@ footer {
 	}
 }
 
+@media screen and (max-width: 540px) {
+	#paragraphs {
+		width: 450px;
+	}
+
+	#showcase-text {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 475px) {
+	#paragraphs {
+		width: 400px;
+	}
+
+	#showcase-text {
+		width: 400px;
+	}
+}
+
 @media screen and (max-width: 470px) {
 	#partnership p {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#paragraphs {
+		width: 350px;
+	}
+
+	#showcase-text {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	#paragraphs {
+		width: 300px;
+	}
+
+	#showcase-text {
 		width: 300px;
 	}
 }
@@ -8404,5 +8444,15 @@ footer {
 	#partnership p {
 		width: 200px;
 		text-align: justify;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	#paragraphs {
+		width: 250px;
+	}
+
+	#showcase-text {
+		width: 250px;
 	}
 }
