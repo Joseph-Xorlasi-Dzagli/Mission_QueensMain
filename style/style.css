@@ -720,6 +720,11 @@ ul {
 	padding: 70px 0px;
 }
 
+footer .footer-content{
+	display: flex;
+	justify-content: space-between;
+}
+
 #contact .footer-content {
 	display: flex;
 	justify-content: space-between;
@@ -8276,6 +8281,21 @@ footer {
 	#stories .container {
 		max-width: 400px;
 		margin: auto;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	footer .footer-content{
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer .footer-content .lead-txt{
+		margin-bottom: 20px;
+	}
+
+	footer .footer-content .next{
+		text-align: center;
 	}
 }
 
