@@ -8443,6 +8443,7 @@ footer {
 @media screen and (max-width: 360px) {
 	#partnership p {
 		width: 200px;
+		
 		text-align: justify;
 	}
 }
