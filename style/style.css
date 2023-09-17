@@ -41,6 +41,47 @@ ul {
 	list-style: none;
 }
 
+/*Mobile Responsiveness*/
+/* Add this CSS to your existing style.css or in a <style> tag in the <head> section */
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add padding to header and nav for mobile */
+#header-contact, #navbar {
+  padding: 10px;
+}
+
+/* Adjust font sizes for smaller screens */
+h1, h2, h3, h4 {
+  font-size: 1.5em;
+}
+
+/* Add some space between elements */
+.container {
+  margin: 10px;
+}
+
+/* Adjust font size for small screens */
+#footer-left h4 {
+  font-size: 1.2em;
+}
+
+/* Adjust padding in footer */
+footer {
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  /* CSS for screens less than 600px wide */
+  /* Add your styles here */
+}
+
+
+
 /* Utilities */
 .container {
 	max-width: 80vw;
