@@ -196,7 +196,7 @@ ul {
 	padding-right: 20px;
 }
 
-/* Navbar */
+/* Nvabar */
 #navbar {
 	padding: 15px 0px;
 	position: sticky;
@@ -634,15 +634,15 @@ ul {
 }
 
 .swiper-slide #img1 {
-	width: 100%;
+	width: 200px;
 }
 
 .swiper-slide #img2 {
-	width: 100%;
+	width: 100px;
 }
 
 .swiper-slide #img3 {
-	width: 100%;
+	width: 100px;
 }
 
 #stories {
@@ -688,7 +688,7 @@ ul {
 
 .card-stor-img img {
 	width: 100%;
-	height: auto;
+	height: 100%;
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -881,25 +881,6 @@ footer {
 	text-align: center;
 }
 
-/* Default styles */
-.swiper-slide .img {
-	width: 100vw;
-	height: 72vh;
-}
-
-/* Mobile-friendly adjustments */
-@media only screen and (max-width: 768px) {
-    .swiper-slide .img {
-        height: 50vh; /* Adjusted height for smaller screens */
-    }
-
-    .swiper-slide .overlay-content {
-        text-align: center; /* Center text on smaller screens */
-    }
-
-}
-
-
 /* Home Page */
 .swiper-slide .img {
 	width: 100vw;
@@ -907,31 +888,29 @@ footer {
 }
 
 .swiper-slide .img1 {
-    background: url(../images/home.jpg);
-    background-position: center center;
-    background-size: cover; /* Adjusted to "contain" for mobile */
-    /*height: 50vh; Adjusted height for mobile devices */
+	background: url(../images/home.jpg);
+	background-position: center center;
+	background-size: cover;
 }
 
-
 .swiper-slide .img2 {
-    background-image: url(../images/violence4.jpg);
-    background-position: center center;
-    background-size: cover; /* Adjusted to "contain" for mobile */
-/*     height: 50vh; /* Adjusted height for mobile devices */ */
+	background-image: url(../images/violence4.jpg);
+	background-position: center center;
+	background-size: cover;
+	object-fit: cover;
 }
 
 .swiper-slide .img2 .overlay2 {
 	position: absolute;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .swiper-slide .img3 .overlay2 {
 	position: absolute;
 	width: 100%;
-	height: auto;
+	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -996,10 +975,7 @@ footer {
 .swiper-slide .img3 {
 	background-image: url(../images/equal.jpg);
 	background-position: center center;
-	background-size: cover; /* Adjusted to "contain" for mobile */
-/* 	height: 50vh; /* Adjusted height for mobile devices */ */
-}
-
+	background-size: cover;
 }
 
 .home-content {
@@ -1594,7 +1570,7 @@ footer {
 	border-radius: 5px;
 }
 
-#stem-sub-content #stem-contents #content1 #stem- {
+#stem-sub-content #stem-contents #content1 #stem-img1 {
 	background-image: url(../images/wo-engineer.jpg);
 	background-position: center center;
 	background-size: cover;
