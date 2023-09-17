@@ -909,7 +909,7 @@ footer {
 .swiper-slide .img1 {
     background: url(../images/home.jpg);
     background-position: center center;
-    background-size: contain; /* Adjusted to "contain" for mobile */
+    background-size: cover; /* Adjusted to "contain" for mobile */
     height: 50vh; /* Adjusted height for mobile devices */
 }
 
@@ -917,7 +917,7 @@ footer {
 .swiper-slide .img2 {
     background-image: url(../images/violence4.jpg);
     background-position: center center;
-    background-size: contain; /* Adjusted to "contain" for mobile */
+    background-size: cover; /* Adjusted to "contain" for mobile */
     height: 50vh; /* Adjusted height for mobile devices */
 }
 
@@ -996,7 +996,7 @@ footer {
 .swiper-slide .img3 {
 	background-image: url(../images/equal.jpg);
 	background-position: center center;
-	background-size: contain; /* Adjusted to "contain" for mobile */
+	background-size: cover; /* Adjusted to "contain" for mobile */
 	height: 50vh; /* Adjusted height for mobile devices */
 }
 
