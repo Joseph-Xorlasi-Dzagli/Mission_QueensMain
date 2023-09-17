@@ -891,6 +891,7 @@ footer {
 	background: url(../images/home.jpg);
 	background-position: center center;
 	background-size: cover;
+	object-fit: cover
 }
 
 .swiper-slide .img2 {
@@ -976,6 +977,7 @@ footer {
 	background-image: url(../images/equal.jpg);
 	background-position: center center;
 	background-size: cover;
+	object-fit: cover
 }
 
 .home-content {
