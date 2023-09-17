@@ -196,7 +196,7 @@ ul {
 	padding-right: 20px;
 }
 
-/* Nvabar */
+/* Navbar */
 #navbar {
 	padding: 15px 0px;
 	position: sticky;
@@ -881,7 +881,7 @@ footer {
 	text-align: center;
 }
 
-/* Home Page */
+/* Default styles */
 .swiper-slide .img {
 	width: 100vw;
 	height: 72vh;
@@ -897,17 +897,136 @@ footer {
         text-align: center; /* Center text on smaller screens */
     }
 
-    .swiper-slide .overlay2 #warning h1,
-    .swiper-slide .overlay-content .stand h1 {
-        font-size: 30px; /* Adjusted font size for smaller screens */
-    }
-
-    .swiper-slide .overlay2 #warning ion-icon,
-    .swiper-slide .overlay-content .stand ion-icon {
-        font-size: 30px; /* Adjusted icon size for smaller screens */
-    }
 }
 
+
+/* Home Page */
+.swiper-slide .img {
+	width: 100vw;
+	height: 72vh;
+}
+
+.swiper-slide .img1 {
+	background: url(../images/home.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.swiper-slide .img2 {
+	background-image: url(../images/violence4.jpg);
+	background-position: center center;
+	background-size: cover;
+	object-fit: cover;
+}
+
+.swiper-slide .img2 .overlay2 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide .img3 .overlay2 {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-slide .img2 .overlay-content {
+	height: 72vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide .img2 .overlay2 #warning {
+	display: flex;
+	align-items: center;
+}
+
+.swiper-slide .img2 .overlay2 #warning h1 {
+	color: red;
+	font-size: 50px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.swiper-slide .img2 .overlay2 #warning ion-icon {
+	color: red;
+	font-size: 50px;
+}
+
+.swiper-slide .img3 .overlay-content {
+	height: 72vh;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.swiper-slide .img3 .overlay-content .stand {
+	display: flex;
+	align-items: center;
+	padding-bottom: 20px;
+}
+
+.swiper-slide .img3 .overlay-content .stand h1 {
+	font-size: 40px;
+	color: #dd2199;
+	padding-right: 10px;
+}
+
+.swiper-slide .img3 .overlay-content p {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.swiper-slide .img3 .overlay-content .stand ion-icon {
+	color: #dd2199;
+	font-size: 30px;
+}
+
+.swiper-slide .img3 {
+	background-image: url(../images/equal.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+.home-content {
+	justify-content: center;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home-content h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.home-content p {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.home-content a {
+	display: inline-block;
+	color: #fff;
+	background-color: #dd2199;
+	padding: 10px 12px;
+	font-size: 14px;
+	transition: all ease-in-out 0.5s;
+}
+
+.home-content a:hover {
+	background-color: #e06bb6;
+}
 
 /* Mission */
 #his-mission {
