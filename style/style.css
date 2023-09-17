@@ -634,15 +634,15 @@ ul {
 }
 
 .swiper-slide #img1 {
-	width: 200px;
+	max-width: 100%;
 }
 
 .swiper-slide #img2 {
-	width: 100px;
+	max-width: 100%;
 }
 
 .swiper-slide #img3 {
-	width: 100px;
+	max-width: 100%;
 }
 
 #stories {
@@ -883,7 +883,7 @@ footer {
 
 /* Home Page */
 .swiper-slide .img {
-	width: 100vw;
+	max-width: 100vw;
 	height: 72vh;
 }
 
@@ -903,14 +903,14 @@ footer {
 
 .swiper-slide .img2 .overlay2 {
 	position: absolute;
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .swiper-slide .img3 .overlay2 {
 	position: absolute;
-	width: 100%;
+	max-width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5);
 }
