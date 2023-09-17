@@ -918,7 +918,7 @@ footer {
 }
 
 /* Home Page */
-.swiper-slide .img1  {
+.swiper-slide .img  {
     width: 100vw;
     height: 50vh; /* Adjusted height for mobile devices */
 }
