@@ -892,7 +892,6 @@ footer {
 	background-position: center center;
 	background-size: cover;
 	width: 100%;
-	height: auto; /* Change to auto to maintain the image's aspect ratio */
  	object-fit: contain;
 }
 
@@ -901,7 +900,6 @@ footer {
 	background-position: center center;
 	background-size: cover;
 	width: 100%;
-	height: auto; /* Change to auto to maintain the image's aspect ratio */
  	object-fit: contain;
 }
 
@@ -982,7 +980,6 @@ footer {
 	background-position: center center;
 	background-size: cover;
 	width: 100%;
-	height: auto; /* Change to auto to maintain the image's aspect ratio */
  	object-fit: contain;
 }
 
