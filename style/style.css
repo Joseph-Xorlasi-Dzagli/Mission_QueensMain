@@ -634,15 +634,15 @@ ul {
 }
 
 .swiper-slide #img1 {
-	width: 200px;
+	width: 100%;
 }
 
 .swiper-slide #img2 {
-	width: 100px;
+	width: 100%;
 }
 
 .swiper-slide #img3 {
-	width: 100px;
+	width: 100%;
 }
 
 #stories {
@@ -921,14 +921,14 @@ footer {
 
 .swiper-slide .img2 .overlay2 {
 	position: absolute;
-	width: 100%;
+	width: auto;
 	height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .swiper-slide .img3 .overlay2 {
 	position: absolute;
-	width: 100%;
+	width: auto;
 	height: auto;
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -1589,7 +1589,7 @@ footer {
 	border-radius: 5px;
 }
 
-#stem-sub-content #stem-contents #content1 #stem-img1 {
+#stem-sub-content #stem-contents #content1 #stem- {
 	background-image: url(../images/wo-engineer.jpg);
 	background-position: center center;
 	background-size: cover;
