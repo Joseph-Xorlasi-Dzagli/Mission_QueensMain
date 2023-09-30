@@ -66,18 +66,26 @@
 
         </div>
     </nav>
-    <!-- Navbar End -->
 
     <style>
-     
-        .owl-nav {
-            bottom: 1500px;
+        .carousel-pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
         }
     
-        .owl-prev, .owl-next {
-            transform: translateY(90%);
+        .carousel-pagination .carousel-dot {
+            width: 12px;
+            height: 12px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background-color: #ccc;
+            cursor: pointer;
         }
-        
+    
+        .carousel-pagination .active {
+            background-color: #333;
+        }
     </style>
     
     <!-- Carousel Start -->
@@ -114,11 +122,34 @@
                 </div>
             </div>
         </div>
+            <div class="carousel-pagination">
+        <span class="carousel-dot active"></span>
+        <span class="carousel-dot"></span>
+    </div>
     </div>
 </div>
     <!-- Carousel End -->
+    
+<script>
+    $(document).ready(function(){
+        $(".header-carousel").owlCarousel({
+            // Add your carousel settings here
+            items: 1,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            // ...
+            dotsContainer: '.carousel-pagination', // This connects the custom pagination
+        });
 
-
+        // Add event listener to handle dot click
+        $('.carousel-dot').click(function(){
+            var index = $(this).index();
+            $('.header-carousel').trigger('to.owl.carousel', [index, 300]);
+        });
+    });
+</script>
+    
     <!-- Service Start -->
     <div class="container-xxl py-5">
         <div class="container">
