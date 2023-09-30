@@ -1,325 +1,477 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission Queens Ghana official Website | Mission Queens Girl Up | Home</title>
-    <meta name="description" content="Learn about Mission Queen Girlup Ghana, a movement uniting girls to change the world. Explore our programs and initiatives to advance girls’ skills, rights, and opportunities - Official Website" />
-    <meta name="google-site-verification" content="LaGeFL34e6957Qim4Ppjo7p8ZB1AmtEpJXSteOnBgZs" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="images/missionqueenslogo.png" rel="icon">
-<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">   -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <title>eLEARNING - eLearning HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DP2LW86EXS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DP2LW86EXS');
-</script>
 <body>
-    <header id="header-contact">
-        <div class="container header-content">
-            <div id="head-contact">
-                <ul id="left">
-                    <li>
-                        <a href="#">
-                            <ion-icon name="mail-outline"></ion-icon>
-                            girlupmissionqueens@gmail.com
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <ion-icon name="call-outline"></ion-icon>
-                            +(233) 555 1688 18
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div id="media-handles">
-                <ul>
-                    <li><a href="https://www.facebook.com/missionqueens.girlup"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="https://twitter.com/mission_queens?s=08"><i class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="https://www.instagram.com/invites/contact/?i=ds551s6j1vu&utm_content=kbnkt0z"><i class="fab fa-instagram-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
-                </ul>    
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-    </header>
-    <nav id="navbar">
-        <div class="container nav-content">
-            <ul id="logo">
-                <img src="images/missionqueenslogo.png" alt="">
-                <div id="text">
-                    <h1 style="color: #dd2199;">Mission Queens</h1>
-                    <p>Uniting Girls to Change the World</p>
-                </div>
-            </ul>
-            <ul id="nav-links">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="articles.html">Articles</a></li>
-            </ul>
+    </div>
+    <!-- Spinner End -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>eLEARNING</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="home.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="Contact.html" class="nav-item nav-link">Contact</a>
+
+                <a href="articles.html" class="nav-item nav-link">Articles</a>
+            </div>
+
         </div>
     </nav>
- <section id="home-showcase">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                  <div class="img1 img">
-                    <div class="overlay2 home-content">
-                        <h1>When girls rise we all rise</h1>
-                        <p>We’re a movement to advance girls’ skills, rights, and opportunities to be leaders</p>
-                        <a href="btn">About Us</a>
-                    </div>
-                  </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="img2 img">
-                    <div class="overlay2 ">
-                        <div class="container overlay-content ">
-                            <div id="warning">
-                                <h1>Stop</h1><ion-icon name="warning-outline"></ion-icon>
+    <!-- Navbar End -->
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="images/missionqueensgirluphome.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown">When We Rise, All Girls Rise</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">We’re a movement to advance girls’ skills, rights, and opportunities to be leaders</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About Us</a>
                             </div>
-                            <p>Violence Against women</p>
                         </div>
                     </div>
                 </div>
-              </div>
-             <div class="swiper-slide">
-                <div class="img3 img">
-                    <div class="overlay2">
-                        <div class="container overlay-content">
-                            <div class="stand">   
-                                <h1>We stand for equal rights</h1><ion-icon name="hand-right-outline"></ion-icon>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="images/missionqueensgirlupequal.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h1 class="display-3 text-white animated slideInDown">We stand for equal rights</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Women also have a say in leadership. Patriachy must end.</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">About Us</a>
                             </div>
-                            <p>Women also have a say in leadership</p>
-                            <p>Patriachy must end</p>
                         </div>
                     </div>
                 </div>
-              </div>
-            </div>
-            <!-- Add Pagination -->
-            <div class="swiper-pagination" style='color: #dd2199;'></div>
-            <!-- Add Arrows -->
-           <div class="swiper-button-next"  style='color: #dd2199;'></div>
-            <div class="swiper-button-prev" style='color: #dd2199'></div>
-          </div>
-    </section>
-    <section id="main">
-        <div class="container main-content">
-            <h1 data-aos="fade-down">Our Idealogy</h1>
-            <div id="main-line" data-aos="fade-right"></div>
-            <div id="main-sub">
-                <div id="main-img" data-aos="fade-right"></div>
-                <div id="main-text" data-aos="fade-left">
-                    <h2>Young Leaders Start Here</h2>
-                    <p>Girl Up guides and champions girls along their journey from leader to changemaker with specialized programming on global gender issues and in organizing, advocacy, fundraising, and communication. Together we work to make the female race an integral part of society</p>
-                    <h2>Our Motto</h2>
-                    <p>Educating, exposing, and redefining the perfect queen in her.</p>
-                    <h2>Our Vision</h2>
-                    <p>To facilitate a conducive environment and a better society where every lady thrives and explores her fullest potential regardless of her background, personality, or gender by providing the needed support system</p>
-                </div>
             </div>
         </div>
-    </section>
-    <section id="his-mission">
-        <div class="container his-mission-content">
-            <div id="leader" data-aos="flip-left">
-                <div id="mission-img"></div>
-                <h2>Jacinta Dzagli</h2>
-                <p id="title">President of Girls Up</p>
-                <div class="message">
-                    <p>Under Jacinta's leadership, Club helps girls access their inner power to advance girls’ skills, rights, and opportunities, increasing their sense of confidence and helping them to be changemakers </p>
-                </div>
-            </div>
-            <div id="history" data-aos="flip-up">
-                <div id="history-img"></div>
-                <h2>Our History</h2>
-                <div class="message">
-                    <p>Mission Queens is an agglomerate body of Girl Up Organization here in Ghana and it helps support women empowerment agencies in giving assistance to girls</p>
-                </div >
-                <a href="history.html" target="_blank" class="btn">Read More</a> 
-            </div>
-            <div id="mission" data-aos="flip-up">
-                <div id="mission-img"></div>
-                <h2>Our Mission</h2>
-                <div class="message">
-                    <p>To educate, expose and redefine the perfect queens in our lady members and girls we reach out to by making them aware of critical issues that affect them while making them feel worthy of society’s recognition.</p>
-                </div >
-                <a href="mission.html" target="_blank" class="btn">Read More</a> 
-            </div>
-        </div>
-    </section>
-    <section id="people">
-        <div class="container people-content">
-            <h3>What People Say</h3>
-            <div id="people-container">
-                <div class="card card1" data-aos="zoom-in">
-                    <div class="card-img">
-                        <img src="./images/aba.jpg" alt="">
-                    </div>
-                    <div class="card-text">
-                        <img src="./images/ldquo.svg" class="quotation" alt="">
-                        <p>" You can not do this because you are a female ", "you must do this because you are a female ".The issue of gender roles and male dominance in prominent spaces always keeps my mind in space wondering what ever went wrong. I believe WE ALL CAN regardless of our gender because why not? I am a promulgator of the word to young girls to simply " Girl Up".</p>
-                        <img src="./images/rdquo.svg" class="quotation" alt="">
-                    </div>
-                </div>
-                <div class="card card1" data-aos="zoom-in">
-                    <div class="card-img">
-                        <img src="./images/ind9.jpg" alt="">
-                    </div>
-                    <div class="card-text">
-                        <img src="./images/ldquo.svg" class="quotation" alt="">
-                        <p>Effective communication wasn't a thing for me because I always fumbled in that aspect of my life. As a member of the Education Committee that has become a thing of the past.  I have learned how important it is to coordinate, be creative, and self-develop; especially since as an education committee member you are mostly holding the fort when it comes to public education. Thanks, M.Q Girl Up.</p>
-                        <img src="./images/rdquo.svg" class="quotation" alt="">
-                    </div>
-                </div>
-                <div class="card card1" data-aos="zoom-in">
-                    <div class="card-img">
-                        <img src="./images/anita.jpg" alt="">
-                    </div>
-                    <div class="card-text">
-                        <img src="./images/ldquo.svg" class="quotation" alt="">
-                        <p> I just could not comprehend why matters relating to sexual and reproductive health were almost a taboo for discussion, leaving we the young ones with alternatives of either scheduling appointments with health experts (if you can afford) or simply resorting to our inexperienced peers who seem to know more (We all know the down sides of that). I want to be a force of change in this regard and with the enlightenment from M.Q, I know I'd be totally up for this challenge in the future. </p>
-                        <img src="./images/rdquo.svg" class="quotation" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="counter">
-        <div class="container counter-content">
-            <div>
-                <div class="counter" data-target="250000">0</div>
-                <h3>Annual Rape Cases</h3>
-            </div>
-            <div>
-                <div class="counter" data-target="50005">0</div>
-                <h3>Females Killed yearly</h3>
-            </div>
-            <div>
-                <div class="counter" data-target="2600000">0</div>
-                <h3>Female STEM graduates globally</h3>
-            </div>
-            <div>
-                <div class="counter" data-target="137">0</div>
-                <h3>Women Killed Daily</h3>
-            </div>
-        </div>
-    </section>
-    <section id="home-events">
+    </div>
+    <!-- Carousel End -->
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <h1 data-aos="fade-down">Most Recent Events</h1>
-            <div class="line" data-aos="fade-right"></div>
-            <div class="home-events-content">
-                <div id="events-icon">
-                    <div class="flex-content" data-aos="fade-up-right">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Book Reviews</p>
-                    </div>
-                    <div class="flex-content" data-aos="fade-up-right">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Climate change awareness programmes</p>
-                    </div>
-                    <div class="flex-content" data-aos="fade-up-right">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Computer literacy programmes</p>
-                    </div>
-                    <div class="flex-content" data-aos="fade-up-right">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Fund raising Events</p>
-                    </div>
-                    <div class="flex-content" data-aos="fade-up-right">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Girl talks</p>
-                    </div>
-                    <div class="flex-content" data-aos="fade-up-right">
-                        <i class="fas fa-check-circle"></i>
-                        <p>Health talks</p>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="images/missionqueengirlupstoprape.png" alt="Custom Icon" style="max-width: 100%; height: auto;">
+                            <h5 class="mb-3">250000 <br> Rape Cases Annually<br>      </h5>
+                        </div>
                     </div>
                 </div>
-                <div data-aos="fade-up-left">
-                    <img src="images/eventsbanner.jpg" alt="">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="images/missionqueensgirlupwomenkilled.png" alt="Custom Icon" style="max-width: 100%; height: auto;">
+                            <h5 class="mb-3">50500 <br> Women Killed Annually</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="images/missionqueensgirlupstemwomen.png" alt="Custom Icon" style="max-width: 100%; height: auto;">
+                            <h5 class="mb-3">2600000 <br> Female STEM graduates </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <img src="images/missionqueensgirlupstopviolence.png" alt="Custom Icon" style="max-width: 100%; height: auto;">
+                            <h5 class="mb-3">137 <br> Women Killed Daily </h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="contact">
-        <div class="container footer-content">
-            <div id="footer-left">
-                <ul>
-                    <img src="images/logo.png" alt="">
-                    <div id="text">
-                        <h1 style="color: #dd2199; padding-bottom: 10px;">Mission Queens</h1>
-                        <p>Uniting Girls to Change the World</p>
+    </div>
+    <!-- Service End -->
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="images/missionqueensgirlupidea.jpg" alt="" style="object-fit: cover;">
                     </div>
-                </ul>
-                <div id="footer-p">
-                    <p>When girls rise, we all rise</p>
-                    <p>We’re a movement to advance girls’ skills, rights,</p>
-                    <p>and opportunities to be leaders</p>
                 </div>
-                <ul id="social">
-                    <li><a href="https://www.facebook.com/missionqueens.girlup"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="https://twitter.com/mission_queens?s=08"><i class="fab fa-twitter-square"></i></a></li>
-                    <li><a href="https://www.instagram.com/invites/contact/?i=ds551s6j1vu&utm_content=kbnkt0z"><i class="fab fa-instagram-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
-                </ul> 
-            </div>
-            <div id="footer-right">
-                <h4 style="color: #dd2199;">Our Location</h4>
-                <ul>
-                    <li><ion-icon name="mail-outline"></ion-icon> girlupmissionqueens@gmail.com</li>
-                    <li><ion-icon name="call-outline"></ion-icon> +(233) 555 1688 18</li>
-                    <li><ion-icon name="globe-outline"></ion-icon> girlup.netlify.app</li>
-                    <li><ion-icon name="location-outline"></ion-icon> Knust Campus</li>
-                </ul>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Our Idealogy</h6>
+                    <h1 class="mb-4">Young Leaders Start Here</h1>Our Motto
+                    <p class="mb-4">Girl Up guides and champions girls along their journey from leader to changemaker with specialized programming on global gender issues and in organizing, advocacy, fundraising, and communication. Together we work to make the female race an integral part of society</p>
+                    <h1 class="mb-4">Our Motto</h1>
+                    <p class="mb-4">Educating, exposing, and redefining the perfect queen in her.</p>
+                    <h1 class="mb-4">Our Vision</h1>
+                    <p class="mb-4">To facilitate a conducive environment and a better society where every lady thrives and explores her fullest potential regardless of her background, personality, or gender by providing the needed support system.</p>
+                </div>
             </div>
         </div>
-    </section>
-    <footer>
-        <div class="container footer-content">
-            <p class="lead-txt">© 2021 GIRL-UP POWERED BY MCR</p>
-            <p class="next">The webpage is a sole responsibility of the Mission Queens Girl Club and does no necessarily reflect the views of the international community of Girl Up clubs</p>
+    </div>
+    <!-- About End -->
+    <!-- Who Are We -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">WHO WE ARE</h6>
+                <h1 class="mb-5">Our History, Our Mission</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/missionqueensgirlupjacinta1.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h6 class="mb-2">Jacinta Dzagli</h6>
+                            <h4 class="mb-4">President of GirlUp</h4>
+                            <p>Under Jacinta's leadership, Club helps girls access their inner power to advance girls’ skills, rights, and opportunities, increasing their sense of confidence and helping them to be changemakers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/missionqueensgiruphistory.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h4 class="mt-4 mb-4">Our History</h4>
+                            <p class="mb-8">Mission Queens is an agglomerate body of Girl Up Organization here in Ghana and it helps support women empowerment agencies in giving assistance to girls </p>
+                            <a href="/history" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px;">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="images/missionqueensgirlupmission.jpg" alt="">
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h4 class="mt-4 mb-4">Our Mission</h4>
+                            <p>To educate, expose and redefine the perfect queens in our lady members and girls we reach out to by making them aware of critical issues that affect them.</p>
+                            <a href="/mission" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px;">Read More</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script>
-       var swiper = new Swiper('.swiper-container', {
-            spaceBetween: 30,
-            centeredSlides: true,
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-        })
-    </script>
-    <script src="https://kit.fontawesome.com/ea129587c4.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-    <script src="counter.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+    </div>
+    <!-- Who Are We -->
+    <!-- What People say about us -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">WHAT PEOPLE SAY ABOUT US</h6>
+                <h1 class="mb-5">Testimonies</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="border rounded-circle p-2 mx-auto mb-3" src="images/missionqueensgirlupaba.jpg" alt="" style="max-width: 100%;">
+
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">"You cannot do this because you are a female" - Aba</h5>
+                            <p> "You must do this because you are a female ".The issue of gender roles and male dominance in prominent spaces always keeps my mind in space wondering what ever went wrong. I believe WE ALL CAN regardless of our gender because why not? I am a promulgator of the word to young girls to simply "Girl Up".</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="border rounded-circle p-2 mx-auto mb-3" src="images/missionqueensgirlupjessica.jpg" alt="" style="max-width: 100%;">
+
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">"I always fumbled with effective communication" - Jessica</h5>
+                            <p>As a member of the Education Committee that has become a thing of the past. I have learned how important it is to coordinate, be creative, and self-develop; especially since as an education committee member you are mostly holding the fort when it comes to public education. Thanks, M.Q Girl Up.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="border rounded-circle p-2 mx-auto mb-3" src="images/missionqueensgirlupanita.jpg" alt="" style="max-width: 100%">
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4">" Sexual and reproductive health were almost a taboo for discussion." - Anita</h5>
+                            <p>As young ones, only a few were priveleged to engage with experts on sexual health. Many of us resorted to the misleads of our inexperienced peers who seem to know more. With the enlightenment from M.Q, I want to be a force of change in this regard. I know I'd be totally up for this challenge</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- What people say about us-->
+    <!-- Explore Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-center text-primary px-3">EXPLORE</h6>
+                    <h1 class="mb-4">Our Projects and Programs</h1>
+                    <p class="mb-4">Mission Queens GirlUp is committed to improving the lives of the millions of girls in Ghana. We do this through our events, programs and projects</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Afia Kobi Stem Project</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Climate change awareness programmes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Charity Donations</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Health talks</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Fund raising Events</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Girl talks</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Computer literacy programmes</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0 d-flex align-items-center"><i class="fa fa-arrow-right text-primary me-2"></i>Field Trips</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore End -->
+    <!-- Gallery Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="images/missionqueensgirlupthankyou5.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Sexual Education <br>Campaign</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="images/missionqueensgirlupthankyou8.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Safe Campus<br>Program</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="images/missionqueensgirlupthankyou1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Afia Kobi <br> Stem Project</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="images/missionqueensgirlupthankyou6.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Reproductive Health<br>Campaign</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="images/missionqueensgirlupthankyou3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Health Field <br>Trip</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="images/missionqueensgirlupthankyou4.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Charity Donations</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="images/missionqueensgirlupthankyou2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Computer Literacy <br> Program</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="images/missionqueensgirlupthankyou9.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">Fundraising Programs</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+    <!-- Gallery Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="row g-3">
+                
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>KNUST Campus, AR</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+(233) 555 1688 18</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>girlupmissionqueens@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="images/missionqueensgirlupthankyou1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="images/missionqueensgirlupthankyou2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="images/missionqueensgirlupthankyou3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="images/missionqueensgirlupthankyou4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="images/missionqueensgirlupthankyou5.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="images/missionqueensgirlupthankyou8.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Subscribe to our newsletter to recieve latest updates on our programs.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">This webpagee</a>, is a sole responsibility of the Mission Queens Girl Club and does no necessarily reflect the views of the international community of Girl Up clubs<>
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://gh.linkedin.com/in/joe-dzagli">Studio5</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
